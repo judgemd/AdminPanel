@@ -1,8 +1,7 @@
 body {
     background-color: #eeeeee;
 }
-.all {
-}
+
 
 .leftbar{
     position: fixed;
@@ -41,4 +40,8 @@ body {
 .active {
     background-color: blueviolet;
     color: white;
+}
+.body {
+    max-width: 25%;
+    margin-left: 10%;
 }
