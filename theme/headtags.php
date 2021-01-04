@@ -7,7 +7,7 @@
 <!--Meta Tags-->
 
 <!--Styles-->
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="style.css">
 <!--Styles-->
 
 <!--Scripts-->
