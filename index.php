@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="ydo">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores recusandae numquam illum consequatur ad doloremque dolor suscipit exercitationem repellendus odit aliquid quia molestias voluptatem eaque eos sapiente dicta minima beatae accusamus placeat id, nam ratione quis aut! Ad odit rerum quisquam eaque beatae autem, dolor sit commodi tempora quo perferendis consequuntur ipsam! Mollitia velit amet suscipit dicta dolores illum cupiditate ut illo, labore harum quas alias dolorem, officia ipsam accusamus iste. Unde hic vero corporis, incidunt placeat deserunt libero delectus, tenetur quam qui dolore beatae velit, obcaecati dolorem quae officiis animi quaerat distinctio inventore aspernatur ipsum non aliquid quis possimus?
+    <?php?>
 </div>
     </div>
     <br>
