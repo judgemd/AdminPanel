@@ -36,9 +36,9 @@
     </div>
     <div class="ydo">
         <?php
-        if($dashboard == true) {
+        if($_SESSION["panel"] == 0) {
             include("dashboard.php");
-        } else if($user == true) {
+        } else if($_SESSION["panel"] == 1) {
             include("user.php");
         }
         ?>

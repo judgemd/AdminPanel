@@ -1,11 +1,6 @@
 <?php
     session_start();
 
-    $user = false;
-    $dashboard = false;
-   echo $_SESSION['panel'];
-
-
     ?>
 <head>
 
