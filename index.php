@@ -8,11 +8,11 @@
     <div class="leftbar">
         <h1 class="sidebarsitename">Your Site Name Here!</h1>
     <div class="dashboard">
-    <h3 class="active"><a href="determination.php?dashboard=true">Dashboard<h3>
+    <h3 class="active"><a href="determination.php?panel=0">Dashboard</a><h3>
     </div>
 
     <div class="users">
-        <h3>Users<h3>
+        <h3><a href="determination.php?panel=1">Users</a><h3>
     </div>
         <br>
         <br>
@@ -39,7 +39,7 @@
         if($dashboard == true) {
             include("dashboard.php");
         } else if($user == true) {
-            include("user.php")
+            include("user.php");
         }
         ?>
 </div>

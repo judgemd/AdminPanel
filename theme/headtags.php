@@ -1,11 +1,9 @@
 <?php
     session_start();
 
-        if (!$_SESSION["dashboard"]) {
-            $user = true;
-        } else {
-            
-        }
+    $user = false;
+    $dashboard = false;
+   echo $_SESSION['panel'];
 
 
     ?>

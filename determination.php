@@ -1,10 +1,9 @@
 <?php
+session_start();
 
-if(strip_tags($_GET['dashboard']) == true) {
-  $_SESSION["dashboard"] = $dashboard 
-  header("Location:index.php"); 
-} else {
-    header("Location:index.php");
-}
+$panel = strip_tags($_GET['panel']); 
+
+$_SESSION["panel"] = $panel; 
+header("Location:index.php");
 
 ?>
