@@ -8,7 +8,7 @@
     <div class="leftbar">
         <h1 class="sidebarsitename">Your Site Name Here!</h1>
     <div class="dashboard">
-    <h3 class="active">Dashboard<h3>
+    <h3 class="active"><a href="determination.php?dashboard=true">Dashboard<h3>
     </div>
 
     <div class="users">
@@ -35,7 +35,13 @@
         </div>
     </div>
     <div class="ydo">
-    <?php?>
+        <?php
+        if($dashboard == true) {
+            include("dashboard.php");
+        } else if($user == true) {
+            include("user.php")
+        }
+        ?>
 </div>
     </div>
     <br>

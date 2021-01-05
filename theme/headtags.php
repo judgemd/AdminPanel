@@ -1,3 +1,14 @@
+<?php
+    session_start();
+
+        if (!$_SESSION["dashboard"]) {
+            $user = true;
+        } else {
+            
+        }
+
+
+    ?>
 <head>
 
 <title>Your Website Name Here!</title>
