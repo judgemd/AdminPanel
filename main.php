@@ -1,6 +1,5 @@
 <?php
-    session_start();
-
+    include("system/connection.php");
 ?>
 <html>
     <?php include("theme/headtags.php");?>
