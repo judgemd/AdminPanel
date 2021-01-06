@@ -5,4 +5,9 @@
 <html>
     <?php include("theme/headtags.php");?>
 
+    <body>
+        
+
+
+    </body>
     </html>
