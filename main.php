@@ -6,7 +6,13 @@
 
     <body>
         
-
+    <?php
+    
+    $sorgu = $conn -> query("SELECT datas FROM datas");
+    $cikti = $sorgu->fetch_array();
+    
+        echo $cikti["datas"];
+    ?>
 
     </body>
     </html>
