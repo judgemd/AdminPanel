@@ -38,6 +38,9 @@
         <br>
         <br>
         <div class="altsidebar">
+        <div class="mainwebsite">
+        <h3 class="colormagenta"><a href="main.php">Website</a></h3>
+        </div>
         <div class="logout">
         <h3 class="colormagenta">Log Out</h3>    
         </div>
