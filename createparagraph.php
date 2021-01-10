@@ -8,7 +8,7 @@
 
 
     
-        $sql = "INSERT INTO mainphp (id, mainparagraph) VALUES ($sayi, 'testparagraph')";
+        $sql = "INSERT INTO mainphp (id, mainparagraph) VALUES ($sayi, '$cp')";
     
         if(mysqli_query($conn, $sql)) {
             echo "successfull";
