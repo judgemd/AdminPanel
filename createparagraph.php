@@ -23,7 +23,11 @@
             echo "successfull";
         }    
     }
-    
+    if(mysqli_error($conn)) {
+        echo mysqli_error($conn);
+    } else {
+        echo "successfull";
+    }
     
     /*else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
