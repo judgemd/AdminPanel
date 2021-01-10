@@ -7,20 +7,20 @@
     <body>
         
     <?php
-    
+    /*
     $sorgu = $conn -> query("SELECT datas FROM datas");
     $cikti = $sorgu->fetch_array();
     
         echo $cikti["datas"];
     
-        //$sqlquery = "UPDATE datas SET datas = 'notest' WHERE datas='test'";
-       // if ($conn->query($sqlquery) === TRUE) {
-        //    echo "Succesfull UPDATE";
-       // } 
-        //else {
-         //   echo "ERROR: " . $conn->error;
-        //}
-        
+        $sqlquery = "UPDATE datas SET datas = 'notest' WHERE datas='test'";
+        if ($conn->query($sqlquery) === TRUE) {
+            echo "Succesfull UPDATE";
+        } 
+        else {
+            echo "ERROR: " . $conn->error;
+        }
+      */  
  ?>
 
     </body>
