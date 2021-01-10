@@ -7,12 +7,14 @@
     <body>
         
     <?php
-    /*
-    $sorgu = $conn -> query("SELECT datas FROM datas");
+    
+    $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp");
     $cikti = $sorgu->fetch_array();
     
-        echo $cikti["datas"];
-    
+        echo $cikti["mainparagraph"];
+    /*
+    //////////////////////////////////////////
+
         $sqlquery = "UPDATE datas SET datas = 'notest' WHERE datas='test'";
         if ($conn->query($sqlquery) === TRUE) {
             echo "Succesfull UPDATE";

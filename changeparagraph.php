@@ -1,7 +1,14 @@
 <?php
+    include("system/connection.php");
 
-echo $_POST["changeparagraph"];
+$change = $_POST["changeparagraph"];
      
-
+$sqlquery = "UPDATE mainphp SET mainparagraph = '$change' WHERE id='1'";
+if ($conn->query($sqlquery) === TRUE) {
+    echo "Succesfull UPDATE";
+} 
+else {
+    echo "ERROR: " . $conn->error;
+}
 
 ?>
