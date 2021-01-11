@@ -11,7 +11,7 @@
     $sorgu = $conn -> query("SELECT * FROM mainphp WHERE id=5");
     $outputs = $sorgu->fetch_array();
         
-         echo $output["mainparagraph"];
+         echo $outputs["mainparagraph"];
         
         
         /*
