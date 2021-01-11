@@ -66,13 +66,22 @@ table, td, th {
     border: 1px solid black;
 }
 
+.allparagraphstable {
+    margin-left: 10%;
+}
+
 table {
-    display:flex ;
+    color: black;
+    background-color: white;
     border-collapse: collapse;
     width: 100%;
 }
 
-th {
-    height: 70px;
+.datas {
+    color: red;
+    display: flex;
+    height: 20%;
+    margin-right:25vw;
+    margin-left: 25vw;
 }
 /*Tables*/

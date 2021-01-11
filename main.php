@@ -7,7 +7,7 @@
     <body>
         <table>
             <tr>
-                <th>All Paragraphs</th>
+                <th class="allparagraphstable">All Paragraphs</th>
             </tr>
 
     <?php
@@ -19,7 +19,7 @@
         while($minnumber <= $maxnumber){
         $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp WHERE id=$minnumber");    
         $output = $sorgu->fetch_array();
-         echo "<tr>" . "<th>" . $output["mainparagraph"] . "</th>" . "</tr>";
+         echo "<tr>" . "<th class='datas'>" . $output["mainparagraph"] . "</th>" . "</tr>";
          $minnumber++;
          }
         
