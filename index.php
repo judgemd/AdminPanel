@@ -15,7 +15,7 @@
     } else{
         echo "notactive";
     }
-    ?>"><a href="determination.php?panel=0">Dashboard</a><h3>
+    ?>"><a href="determination.php?panel=0">Dashboard</a></h3>
     </div>
 
     <div class = "users">
@@ -24,7 +24,7 @@
         echo "active";
     } else{
         echo "notactive";
-    }?>"><a href="determination.php?panel=1">Users</a><h3>
+    }?>"><a href="determination.php?panel=1">Users</a></h3>
     </div>
         <br>
         <br>
