@@ -9,7 +9,7 @@
             <tr>
                 <th>All Paragraphs</th>
             </tr>
-            <tr>
+
     <?php
         
     $id = $conn -> query("SELECT * FROM mainphp ORDER BY id DESC LIMIT 1");
@@ -19,7 +19,7 @@
         while($minnumber <= $maxnumber){
         $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp WHERE id=$minnumber");    
         $output = $sorgu->fetch_array();
-         echo "<th>" . $output["mainparagraph"] . "</th>";
+         echo "<tr>" . "<th>" . $output["mainparagraph"] . "</th>" . "</tr>";
          $minnumber++;
          }
         
@@ -35,8 +35,6 @@
         }
       */  
  ?>
-
-                </tr>
             </table>
     </body>
     </html>

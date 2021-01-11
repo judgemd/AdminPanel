@@ -60,3 +60,19 @@ body {
     margin-left: 35%;
     color: white;
 }
+
+/*Tables*/
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    display:flex ;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 70px;
+}
+/*Tables*/
