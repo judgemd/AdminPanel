@@ -8,7 +8,7 @@
         
     <?php
     
-    $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp");
+    $sorgu = $conn -> query("SELECT * FROM mainphp WHERE id=3");
     $cikti = $sorgu->fetch_array();
     
         echo $cikti["mainparagraph"];
