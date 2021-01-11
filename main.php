@@ -8,7 +8,8 @@
         
     <?php
     
-	$outputs=$db->query("SELECT * FROM mainphp ORDER BY id ASC",PDO::FETCH_ASSOC);
+    $sorgu = $conn -> query("SELECT * FROM mainphp WHERE id=5");
+    $outputs = $sorgu->fetch_array();
         
         foreach($outputs as $output) { 
         echo $output["mainparagraph"];
