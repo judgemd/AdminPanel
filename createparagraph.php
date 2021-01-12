@@ -16,12 +16,7 @@
     
     while(mysqli_error($conn)) {
         $sayi++;
-        $sql = "INSERT INTO mainphp (id, mainparagraph) VALUES ($sayi, '$cp')";
-    
-        if(mysqli_query($conn, $sql)) {
-            break;
-            echo "successfull";
-        }    
+        $sql = "INSERT INTO mainphp (id, mainparagraph) VALUES ($sayi, '$cp'";
     }
     if(mysqli_error($conn)) {
         echo mysqli_error($conn);
