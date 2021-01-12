@@ -6,7 +6,7 @@
 
     </form>
     <br>
-    <form action="changeparabyid" method="post">
+    <form action="changeparabyid.php" method="post">
         <label for="changeparabyid"><b>Change Paragraph By ID</b></label>
         <input type="text" placeholder="Change Paragraph" name="changeparagraph">
         <input type="text" placeholder="ID" name="changeid">
