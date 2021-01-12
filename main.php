@@ -11,14 +11,6 @@
             </tr>
 
     <?php
-<<<<<<< HEAD
-    
-    $sorgu = $conn -> query("SELECT * FROM mainphp WHERE id=5");
-    $outputs = $sorgu->fetch_array();
-        
-         echo $outputs["mainparagraph"];
-=======
->>>>>>> table
         
     $id = $conn -> query("SELECT * FROM mainphp ORDER BY id DESC LIMIT 1");
     $outputs = $id->fetch_array();
