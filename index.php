@@ -15,7 +15,7 @@
     } else{
         echo "notactive";
     }
-    ?>"><a href="determination.php?panel=0">Dashboard</a></h3>
+    ?>"><a href="system/determination.php?panel=0">Dashboard</a></h3>
     </div>
 
     <div class = "users">
@@ -24,7 +24,7 @@
         echo "active";
     } else{
         echo "notactive";
-    }?>"><a href="determination.php?panel=1">Users</a></h3>
+    }?>"><a href="system/determination.php?panel=1">Users</a></h3>
     </div>
         <br>
         <br>
@@ -52,9 +52,9 @@
     <div class="ydo">
         <?php
         if($_SESSION["panel"] == 0) {
-            include("dashboard.php");
+            include("theme/index/dashboard.php");
         } else if($_SESSION["panel"] == 1) {
-            include("user.php");
+            include("theme/index/user.php");
         }
         ?>
 </div>

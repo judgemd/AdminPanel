@@ -2,7 +2,7 @@
 
 
 
-    include("system/connection.php");
+    include("../../system/connection.php");
 
 $delete = $_POST["deleteparagraph"];
 

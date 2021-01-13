@@ -1,4 +1,4 @@
-<form action="changeparagraph.php" method="post">
+<form action="dashboard/changeparagraph.php" method="post">
 <label for="changeparagraph"><b>Change Paragraph</b></label>
     <input type="text" placeholder="Change Paragraph" name="changeparagraph">
     <input type="text" placeholder="Paragraph to Change" name="paragraphtochange">
@@ -6,7 +6,7 @@
 
     </form>
     <br>
-    <form action="changeparabyid.php" method="post">
+    <form action="../dashboard/changeparabyid.php" method="post">
         <label for="changeparabyid"><b>Change Paragraph By ID</b></label>
             <input type="text" placeholder="Change Paragraph" name="changeparagraph">
             <input type="text" placeholder="ID" name="changeid">
@@ -16,7 +16,7 @@
         <summary>IDs and Paragraphs </summary>
             <table>
 <?php
-            include("system/connection.php");
+            include("../../system/connection.php");
 
           $id = $conn -> query("SELECT * FROM mainphp ORDER BY id DESC LIMIT 1");
             $outputs = $id->fetch_array();
@@ -37,7 +37,7 @@
 
     <br>    
 
-    <form action="deleteparagraph.php" method="post">
+    <form action="dashboard/deleteparagraph.php" method="post">
         <label for="deleteparagraph"><b>Delete</b></label>
         <input type="text" placeholder="Delete Paragraph" name="deleteparagraph">
         <button type="submit">Delete Paragraph</button>
@@ -45,7 +45,7 @@
 
     <br>
 
-    <form action="deleteparagraphbyid.php" method="post">
+    <form action="dashboard/deleteparagraphbyid.php" method="post">
         <label for="deleteparagraphbyid"><b>Delete</b></label>
         <input type="text" placeholder="ID" name="deleteparagraphbyid">
         <button type="submit">Delete Paragraph By ID</button>
@@ -54,7 +54,7 @@
 
        <br>
 
-    <form action="createparagraph.php" method="post">
+    <form action="dashboard/createparagraph.php" method="post">
         <label for="createparagraph"><b>Create</b></label>
             <input type="text" placeholder="Create Paragraph" name="createparagraph">
             <button type="submit">Create Paragraph</button>

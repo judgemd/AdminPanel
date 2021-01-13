@@ -1,5 +1,5 @@
 <?php
-    include("system/connection.php");
+    include("../../system/connection.php");
 
 $change = $_POST["changeparagraph"];
 $paragraphtochange = $_POST["paragraphtochange"];
