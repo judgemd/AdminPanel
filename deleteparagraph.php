@@ -6,7 +6,7 @@
 
 $delete = $_POST["deleteparagraph"];
 
-$sqlquery = "DELETE FROM mainphp WHERE mainparagraph = $delete";
+$sqlquery = "DELETE FROM mainphp WHERE mainparagraph = '$delete'";
 
     if ($conn->query($sqlquery) === TRUE) {
         echo "Succesfull DELETE";
