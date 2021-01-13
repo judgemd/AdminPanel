@@ -22,9 +22,8 @@
             echo "<tr>" . "<th class='datas'>" . $output["mainparagraph"] . "</th>" . "</tr>";
          
             $minnumber++;
-        }
+         }
  ?>
-        </table>
+            </table>
     </body>
-
-</html>
+    </html>
