@@ -48,7 +48,7 @@
        <br>
 
     <form action="createparagraph.php" method="post">
-        <label for="createparagraph"><b>Change</b></label>
+        <label for="createparagraph"><b>Create</b></label>
             <input type="text" placeholder="Create Paragraph" name="createparagraph">
             <button type="submit">Create Paragraph</button>
     </form>
