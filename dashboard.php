@@ -37,6 +37,16 @@
 
     <br>    
 
+    <form action="deleteparagraph.php" method="post">
+        <label for="deleteparagraph"><b>Delete</b></label>
+        <input type="text" placeholder="Delete Paragraph" name="deleteparagraph">
+        <input type="text" placeholder="Paragraph to Delete" name="paragraphdelete">
+        <button type="submit">Delete Paragraph</button>
+    </form>
+
+
+       <br>
+
     <form action="createparagraph.php" method="post">
         <label for="createparagraph"><b>Change</b></label>
             <input type="text" placeholder="Create Paragraph" name="createparagraph">
