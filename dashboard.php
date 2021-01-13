@@ -44,6 +44,7 @@
     </form>
 
     <br>
+
     <form action="deleteparagraphbyid.php" method="post">
         <label for="deleteparagraphbyid"><b>Delete</b></label>
         <input type="text" placeholder="ID" name="deleteparagraphbyid">

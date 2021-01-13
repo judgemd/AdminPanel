@@ -5,7 +5,6 @@
     include("system/connection.php");
 
 $delete = $_POST["deleteparagraph"];
-$paragraphtodelete = $_POST["paragrapdelete"];
 
 $sqlquery = "DELETE FROM mainphp WHERE mainparagraph = $delete";
 
