@@ -40,8 +40,15 @@
     <form action="deleteparagraph.php" method="post">
         <label for="deleteparagraph"><b>Delete</b></label>
         <input type="text" placeholder="Delete Paragraph" name="deleteparagraph">
-        <input type="text" placeholder="Paragraph to Delete" name="paragraphdelete">
         <button type="submit">Delete Paragraph</button>
+    </form>
+
+    <br>
+
+    <form action="deleteparagraphbyid.php" method="post">
+        <label for="deleteparagraphbyid"><b>Delete</b></label>
+        <input type="text" placeholder="ID" name="deleteparagraphbyid">
+        <button type="submit">Delete Paragraph By ID</button>
     </form>
 
 
