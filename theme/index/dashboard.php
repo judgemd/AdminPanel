@@ -16,7 +16,7 @@
         <summary>IDs and Paragraphs </summary>
             <table>
 <?php
-            include("../../system/connection.php");
+            include("system/connection.php");
 
           $id = $conn -> query("SELECT * FROM mainphp ORDER BY id DESC LIMIT 1");
             $outputs = $id->fetch_array();
