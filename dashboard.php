@@ -55,7 +55,17 @@
        <br>
 
     <form action="createparagraph.php" method="post">
-        <label for="createparagraph"><b>Create</b></label>
+        <label for="createparagraph"><b>Create Paragraph</b></label>
             <input type="text" placeholder="Create Paragraph" name="createparagraph">
             <button type="submit">Create Paragraph</button>
+    </form>
+
+
+       <br>
+
+    <form action="createparagraphbyid.php" method="post">
+        <label for="createparagraphbyid"><b>Create Paragraph By ID</b></label>
+        <input type="text" placeholder="Paragraph" name="createparagraph">    
+        <input type="text" placeholder="ID" name="createparagraphbyid">
+            <button type="submit">Create Paragraph By ID</button>
     </form>
