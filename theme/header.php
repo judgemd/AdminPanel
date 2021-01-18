@@ -1,3 +1,4 @@
+<?php?>
 <header>
         <nav>
         <h1 class = "hone">DevMDeniz</h1>
