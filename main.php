@@ -1,29 +1,24 @@
 <html>
-<?php include("theme/headtags.php"); ?>
-    <body>
-        <table>
-            <tr>
-                <th class="allparagraphstable">All Paragraphs</th>
-            </tr>
+<?php
+    session_start();
 
-    <?php
-        include("system/connection.php");
+    ?>
+<head>
 
-        $id = $conn -> query("SELECT * FROM mainphp ORDER BY id DESC LIMIT 1");
-        $outputs = $id->fetch_array();
-        
-            $maxnumber = $outputs["id"];
-            $minnumber = 1;
-        
-        while($minnumber <= $maxnumber){
-            $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp WHERE id=$minnumber");    
-            $output = $sorgu->fetch_array();
-         
-            echo "<tr>" . "<th class='datas'>" . $output["mainparagraph"] . "</th>" . "</tr>";
-         
-            $minnumber++;
-         }
- ?>
-            </table>
-    </body>
-    </html>
+<title>Your Website Name Here!</title>
+
+<!--Meta Tags-->
+<meta charset="utf8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!--Meta Tags-->
+
+<!--Styles-->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+<link rel="stylesheet" href="mainphp.css">
+<!--Styles-->
+</head>
+
+
+
+</html>
