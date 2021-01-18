@@ -20,12 +20,14 @@
 </head>
     <header>
         <nav>
-            <h1>DevMDeniz</h1>
+        <h1 class = "hone">DevMDeniz</h1>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><i href="fa fa-moon-s"></i></li>
               </ul>    
-        </nav>
+            </nav>
     </header>
+
+
 </html>
