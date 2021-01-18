@@ -3,7 +3,8 @@ body{
 	margin: 0px; 
 }
 header,
-header a:link {
+header a:link,
+header a:visited {
 	background-color: #062e51;
 	color: #aaaaaa;
 }
