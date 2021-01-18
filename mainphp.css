@@ -1,0 +1,23 @@
+body{
+	padding: 0px;
+	margin: 0px; 
+}
+header,
+header a:link {
+	background-color: #062e51;
+	color: #aaaaaa;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.75rem;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+nav ul li a {
+	padding: 0.5rem
+}
