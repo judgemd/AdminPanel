@@ -10,7 +10,12 @@
    <!--Header-->
    <?php include("theme/header.php")?>
    <!--Header-->
-   <section>
-   
+   <section id = '#home'>
+    <img src="assets/logo.png" alt="DevMDeniz Logo"/>
+    <div class="name">
+    <h2>Mehmet Deniz Kumcu</h2>
+      <p>Full Stack Developer | Founder of F-Tech Studios</p>
+      </div>
+   <a href="#aboutus"></a>
    </section>
 </html>
