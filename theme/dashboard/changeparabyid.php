@@ -10,6 +10,7 @@
 
     if ($conn->query($sql) === TRUE) {
         echo "Succesfull UPDATE";
+        header("Location:../../index.php");
     } 
     else {
         echo "ERROR: " . $conn->error;

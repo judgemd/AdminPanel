@@ -8,6 +8,7 @@ $sqlquery = "UPDATE mainphp SET mainparagraph = '$change' WHERE mainparagraph= '
 
     if ($conn->query($sqlquery) === TRUE) {
         echo "Succesfull UPDATE";
+        header("Location:../../index.php");
     } 
     else {
         echo "ERROR: " . $conn->error;
