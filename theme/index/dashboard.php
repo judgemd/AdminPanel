@@ -23,8 +23,8 @@
         
                 $maxnumber = $outputs["id"];
                 $minnumber = 1;
-                    while($minnumber <= $maxnumber){
-                        $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp WHERE id=$minnumber");    
+                while($minnumber <= $maxnumber){
+                $sorgu = $conn -> query("SELECT mainparagraph FROM mainphp WHERE id=$minnumber");    
                         $output = $sorgu->fetch_array();
                         echo "<tr>" . "<th class='datas'>" . $output["mainparagraph"] . " - [$minnumber] -" .  "</th>" . "</tr>";
                         $minnumber++;

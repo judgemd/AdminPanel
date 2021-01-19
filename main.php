@@ -10,4 +10,7 @@
    <!--Header-->
    <?php include("theme/header.php")?>
    <!--Header-->
+   <section>
+   
+   </section>
 </html>
