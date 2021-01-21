@@ -1,3 +1,4 @@
+/*Header*/
 body{
 	padding: 0px;
 	margin: 0px; 
@@ -23,3 +24,20 @@ nav ul {
 nav ul li a {
 	padding: 0.5rem
 }
+/*Header*/
+
+/*Home Section*/
+
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	border-bottom: 1px solid grey;
+}
+
+
+/*Home Section*/
+
+
