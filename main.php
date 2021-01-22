@@ -3,12 +3,12 @@
    
    <?php
     session_start();
-    include("theme/mainphphead.php");
+    include("theme/main/mainphphead.php");
    ?>
    <!--Head Part-->
    
    <!--Header-->
-   <?php include("theme/header.php")?>
+   <?php include("theme/main/header.php")?>
    <!--Header-->
    <section id = 'home'>
     <img src="assets/logo.png" alt="DevMDeniz Logo"/>
