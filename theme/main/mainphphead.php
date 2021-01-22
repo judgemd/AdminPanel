@@ -14,7 +14,7 @@
       if($_SESSION["darkmode"] == "true") {
             echo  "<link rel='stylesheet' href='mainphp.css'>";
       } else {
-            echo "<link rel='stylesheet' href='darkmain.css'>"
+            echo "<link rel='stylesheet' href='darkmain.css'>";
       }
       
       ?>
