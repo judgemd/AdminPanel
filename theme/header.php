@@ -20,7 +20,14 @@
                 <ul>
                     <li><a href="#home"><?php echo $mainparagraph[1];?>[2]</a></li>
                     <li><a href="#contact"><?php echo $mainparagraph[2]?>[3]</a></li>
-                    <li><i class="fa fa-moon-o" aria-hidden="true"></i></li>
+                    <li>
+                    <a href="system/modechanger.php?darkmode=true">
+                    <i
+                     class="fa fa-moon-o"
+                     aria-hidden="true">
+                     </i>
+                     </a>
+                     </li>
               </ul>    
             </nav>
     </header>
