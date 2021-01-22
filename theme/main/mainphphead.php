@@ -12,9 +12,9 @@
 
       <?php 
       if($_SESSION["darkmode"] == "true") {
-            echo  "<link rel='stylesheet' href='mainphp.css'>";
+            echo  "<link rel='stylesheet' href='css/mainphp.css'>";
       } else {
-            echo "<link rel='stylesheet' href='darkmain.css'>";
+            echo "<link rel='stylesheet' href='css/darkmain.css'>";
       }
       
       ?>

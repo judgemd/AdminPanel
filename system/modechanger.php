@@ -5,7 +5,5 @@ $modechanger = strip_tags($_GET['darkmode']);
 
 $_SESSION["darkmode"] = $modechanger; 
 
-echo $_SESSION["darkmode"];
-echo $modechanger;
-
+header("Location: ../main.php");	
 ?>
