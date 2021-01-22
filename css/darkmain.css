@@ -1,9 +1,9 @@
-/*Light Mode For Main.php File*/
+/*Dark Mode for Main.php File*/
 /*Header*/
 body{
 	padding: 0px;
 	margin: 0px; 
-	background: #f2f2f2
+	background: black;
 }
 header,
 header a:link,
