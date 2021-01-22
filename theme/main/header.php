@@ -20,7 +20,25 @@
                 <ul>
                     <li><a href="#home"><?php echo $mainparagraph[1];?>[2]</a></li>
                     <li><a href="#contact"><?php echo $mainparagraph[2]?>[3]</a></li>
-                    <li><i class="fa fa-moon-o" aria-hidden="true"></i></li>
+                    <li>
+                    <!-- system/modechanger.php?darkmode=true -->
+                    
+                    
+
+                    <a href="<?php
+                    if($_SESSION["darkmode"] == "true") {
+                            echo "system/modechanger.php?darkmode=false";
+                    } else {
+                            echo "system/modechanger.php?darkmode=true";
+                    }
+
+                    ?>">
+                    <i
+                     class="fa fa-moon-o"
+                     aria-hidden="true">
+                     </i>
+                     </a>
+                     </li>
               </ul>    
             </nav>
     </header>

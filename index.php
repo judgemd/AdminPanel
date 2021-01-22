@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <!--Head-->
-<?php include ('theme/headtags.php');?>
+<?php include ('theme/index/headtags.php');?>
 <!--Head-->
 <body>
     <div class="all">

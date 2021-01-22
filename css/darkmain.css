@@ -1,0 +1,71 @@
+/*Dark Mode for Main.php File*/
+/*Header*/
+body{
+	padding: 0px;
+	margin: 0px; 
+	background: black;
+}
+header,
+header a:link,
+header a:visited {
+	background-color: #062e51;
+	color: #aaaaaa;
+}
+nav {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.75rem;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+nav ul li a {
+	padding: 0.5rem
+}
+/*Header*/
+
+/*Home Section*/
+
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	border-bottom: 1px solid grey;
+}
+#home .name h2 {
+	margin-bottom: 0.75rem;
+	text-align: center;
+	font-size: 1.85rem;
+}
+#home .name p {
+	opacity: 0.6;
+	font-style: italic;
+}
+.linkwhite,
+#home a:active,
+#home a:visited,
+#home a
+{
+	color: #ffffff;
+}
+#home a {
+	margin-top: 1.25rem;
+	background-color: #004466;
+	padding: 0.8rem 3rem;
+	border-radius: 7px; 
+}
+#home a:hover {
+	color: black;
+	background-color: #ffffff;
+}
+
+
+/*Home Section*/
+
+
