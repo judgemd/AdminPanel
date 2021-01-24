@@ -14,9 +14,9 @@ assets/logo.png
 -->
    <section id = 'home'>
     <img src="<?php if($_SESSION["darkmode"] == "true") {
-       echo "assets/logo2.png";
+       echo "assets/logo.png";
     } else {
-          echo "assets/logo.png";
+          echo "assets/logo2.png";
        }
     ?>" alt="DevMDeniz Logo"/>
     <div class="name">
