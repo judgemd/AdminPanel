@@ -8,8 +8,8 @@ body{
 header,
 header a:link,
 header a:visited {
-	background-color: #062e51;
-	color: #aaaaaa;
+	background-color: #004466;
+	color: #ffffff;
 }
 nav {
 	max-width: 100%;
@@ -36,7 +36,7 @@ nav ul li a {
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid black;
 }
 #home .name h2 {
 	margin-bottom: 0.75rem;
@@ -52,17 +52,18 @@ nav ul li a {
 #home a:visited,
 #home a
 {
-	color: #ffffff;
+	color: black;
 }
 #home a {
+	color: white;
 	margin-top: 1.25rem;
 	background-color: #004466;
 	padding: 0.8rem 3rem;
 	border-radius: 7px; 
 }
 #home a:hover {
-	color: #ffffff;
-	background-color: #000000;
+	color: #004466;
+	background-color: #f2f2f2;
 }
 
 
