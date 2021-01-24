@@ -20,8 +20,8 @@ assets/logo.png
        }
     ?>" alt="DevMDeniz Logo"/>
     <div class="name">
-    <h2 class = "linkwhite"><?php echo $mainparagraph[3];?>[4]</h2>
-      <p class = "linkwhite"><?php echo $mainparagraph[4];?>[5]</p>
+    <h2 class = "linkwhite"><?php echo $mainparagraph[3];?>[3]</h2>
+      <p class = "linkwhite"><?php echo $mainparagraph[4];?>[4]</p>
       </div>
    <a href="#projects">My Projects</a>
    </section>
