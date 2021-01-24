@@ -20,8 +20,8 @@ assets/logo.png
        }
     ?>" alt="DevMDeniz Logo"/>
     <div class="name">
-    <h2 class = "linkwhite">Mehmet Deniz Kumcu</h2>
-      <p class = "linkwhite">Full Stack Developer | Founder of F-Tech Studios</p>
+    <h2 class = "linkwhite"><?php echo $mainparagraph[3];?>[4]</h2>
+      <p class = "linkwhite"><?php echo $mainparagraph[4];?>[5]</p>
       </div>
    <a href="#projects">My Projects</a>
    </section>
