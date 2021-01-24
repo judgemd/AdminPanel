@@ -9,9 +9,16 @@
    
    <!--Header-->
    <?php include("theme/main/header.php")?>
-   <!--Header-->
+   <!--Header
+assets/logo.png
+-->
    <section id = 'home'>
-    <img src="assets/logo.png" alt="DevMDeniz Logo"/>
+    <img src="<?php if($_SESSION["darkmode"] == "true") {
+       echo "assets/logo2.png";
+    } else {
+          echo "assets/logo.png";
+       }
+    ?>" alt="DevMDeniz Logo"/>
     <div class="name">
     <h2 class = "linkwhite">Mehmet Deniz Kumcu</h2>
       <p class = "linkwhite">Full Stack Developer | Founder of F-Tech Studios</p>
