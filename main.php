@@ -23,6 +23,6 @@ assets/logo.png
     <h2 class = "linkwhite"><?php echo $mainparagraph[3];?>[3]</h2>
       <p class = "linkwhite"><?php echo $mainparagraph[4];?>[4]</p>
       </div>
-   <a href="#projects">My Projects</a>
+   <a href="#projects"><?php echo $mainparagraph[5]?>[5]</a>
    </section>
 </html>
