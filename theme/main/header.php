@@ -20,6 +20,7 @@
                 <ul>
                     <li><a href="#home"><?php echo $mainparagraph[1];?>[1]</a></li>
                     <li><a href="#contact"><?php echo $mainparagraph[2]?>[2]</a></li>
+                    <li><a href = "index.php">Admin Panel</a></li>
                     <li>
                     <!-- system/modechanger.php?darkmode=true -->
                     
