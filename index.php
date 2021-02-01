@@ -15,7 +15,7 @@
     } else{
         echo "notactive";
     }
-    ?>"><a href="system/determination.php?panel=0">Dashboard</a></h3>
+    ?>"><i class="fas fa-columns"></i><a href="system/determination.php?panel=0">Dashboard</a></h3>
     </div>
 
     <div class = "users">
